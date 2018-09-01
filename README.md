@@ -57,30 +57,6 @@ A.
 Q. What's the result?
 
 ```javascript
-function f() {
-    return 'foo';
-}
-(function() {
-    if (1 === 0) {
-        function f() {
-            return 'bar';
-        }
-    }
-    return f();
-})();
-```
-
-A.
-
-```javascript
-"bar"
-```
-
-[JSBin](http://jsbin.com/lotavo/1/edit) | [JSBin explained](http://jsbin.com/xezad/1/edit)
-
-Q. What's the result?
-
-```javascript
 (function() {
     return NaN === NaN;
 })();
