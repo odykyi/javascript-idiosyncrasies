@@ -10,6 +10,31 @@ Q. What's the result?
 
 ```javascript
 (function() {
+  var obj = {
+     valueOf: function(){
+        return 3;
+     },
+     toString: function(){
+        return 2;
+     },
+  }
+  return obj + 4;
+})();
+```
+
+A.
+
+```javascript
+7
+```
+[JSBin](http://jsbin.com/vexajubuwi/edit) | [JSBin explained](http://jsbin.com/yadanucedu/1/edit)
+
+-----------------
+
+Q. What's the result?
+
+```javascript
+(function() {
     var foo = new Object();
     var bar = new Object();
     var map = new Object();
