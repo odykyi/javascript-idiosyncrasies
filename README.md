@@ -13,7 +13,7 @@ Q. What's the result?
 
 ```javascript
 (function() {
-  return `text 'inner'` == `text "inner"`
+  return `text 'inner'` == `text "inner"`;
 })();
 ```
 
