@@ -7,6 +7,24 @@ This is a collection of things in JavaScript that may not be well recognized, es
 Disclaimer: Some of these snippets are simply to demonstrate the *quirky* parts of JavaScript and by no means encourage best practices and should never be seen in production code.
 
 ---
+---
+
+Q. What's the result?
+
+```javascript
+(function() {
+  return `text 'inner'` == `text "inner"`
+})();
+```
+
+A.
+
+```javascript
+false
+```
+[JSBin](http://jsbin.com/fagapefazi/edit) | [JSBin explained](http://jsbin.com/kawubejeri/edit)
+
+---
 
 Q. What's the result?
 
@@ -31,7 +49,7 @@ A.
 ```
 [JSBin](http://jsbin.com/vexajubuwi/edit) | [JSBin explained](http://jsbin.com/yadanucedu/1/edit)
 
------------------
+---
 
 Q. What's the result?
 
@@ -56,6 +74,8 @@ A.
 
 [JSBin](http://jsbin.com/xogaki/1/edit) | [JSBin explained](http://jsbin.com/kadoko/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -71,6 +91,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/katana/2/edit) | [JSBin explained](http://jsbin.com/xorix/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -96,6 +118,8 @@ A.
 
 [JSBin](http://jsbin.com/yutuce/1/edit) | [JSBin explained](http://jsbin.com/qemuf/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -118,6 +142,8 @@ A.
 
 [JSBin](http://jsbin.com/focobo/1/edit) | [JSBin explained](http://jsbin.com/lopoh/2/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -134,6 +160,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/hajus/1/edit) | [JSBin explained](http://jsbin.com/yulahi/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -153,6 +181,8 @@ A.
 
 [JSBin](http://jsbin.com/gicij/1/edit) | [JSBin explained](http://jsbin.com/xobap/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -168,6 +198,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/rusas/1/edit) | [JSBin explained](http://jsbin.com/cofam/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -189,6 +221,8 @@ A.
 
 [JSBin](http://jsbin.com/dahaw/1/edit) | [JSBin explained](http://jsbin.com/heteg/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -206,6 +240,8 @@ false
 
 [JSBin](http://jsbin.com/vurego/1/edit) | [JSBin](http://jsbin.com/qabuye/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -221,6 +257,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/begehe/1/edit) | [JSBin explained](http://jsbin.com/buzabo/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -238,6 +276,8 @@ A.
 
 [JSBin](http://jsbin.com/roniwu/2/edit) | [JSBin explained](http://jsbin.com/kijuze/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -253,6 +293,8 @@ true
 ```
 
 [JSBin](http://jsbin.com/rahuy/1/edit) | [JSBin explained](http://jsbin.com/yegix/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -270,6 +312,8 @@ false
 
 [JSBin](http://jsbin.com/nurihe/5/edit) | [JSBin explained](http://jsbin.com/yeroke/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -285,6 +329,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/lobib/2/edit) | [JSBin explained](http://jsbin.com/viwoba/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -302,6 +348,8 @@ A.
 
 [JSBin](http://jsbin.com/loxim/1/edit) | [JSBin explained](http://jsbin.com/cigis/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -317,6 +365,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/hiheq/2/edit) | [JSBin explained](http://jsbin.com/yirey/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -338,6 +388,8 @@ A.
 
 [JSBin](http://jsbin.com/mifiy/1/edit) | [JSBin explained](http://jsbin.com/pegavu/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -353,6 +405,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/foqoc/1/edit) | [JSBin explained](http://jsbin.com/sojow/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -370,6 +424,8 @@ false
 
 [JSBin](http://jsbin.com/yikero/2/edit) | [JSBin explained](http://jsbin.com/cuzub/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -385,6 +441,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/jivini/1/edit) | [JSBin explained](http://jsbin.com/titemi/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -402,6 +460,8 @@ false
 
 [JSBin](http://jsbin.com/femeto/1/edit) | [JSBin explained](http://jsbin.com/xelado/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -418,6 +478,8 @@ false
 
 [JSbin](http://jsbin.com/nilagi/1/edit) | [JSBin explained](http://jsbin.com/nezow/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -433,6 +495,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/dokej/1/edit)| [JSBin explained](http://jsbin.com/kocoma/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -451,6 +515,8 @@ A.
 
 [JSBin](http://jsbin.com/rerati/1/edit) | [JSBin explained](http://jsbin.com/dukagu/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -466,6 +532,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/culufi/1/edit) | [JSBin explained](http://jsbin.com/zuyuv/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -492,6 +560,8 @@ A.
 
 [JSBin](http://jsbin.com/qinol/1/edit) | [JSBin explained](http://jsbin.com/wizemo/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -514,6 +584,8 @@ ReferenceError: g is not defined
 
 [JSBin](http://jsbin.com/pibob/1/edit) | [JSBin explained](http://jsbin.com/lusuc/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -529,6 +601,8 @@ undefined
 ```
 
 [JSBin](http://jsbin.com/cawiro/1/edit) | [JSBin explained](http://jsbin.com/tacet/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -553,6 +627,8 @@ false
 
 [JSBin](http://jsbin.com/kucob/1/edit) | [JSBin explained](http://jsbin.com/sidija/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -574,6 +650,8 @@ undefined
 ```
 
 [JSBin](http://jsbin.com/pufaqiwuri/1/edit) | [JSBin explained](http://jsbin.com/zabat/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -598,6 +676,8 @@ TypeError: undefined is not a function
 ```
 
 [JSBin](http://jsbin.com/mopab/1/edit) | [JSBin explained](http://jsbin.com/sisari/2/edit)
+
+---
 
 Q. What's the result?
 
@@ -624,6 +704,8 @@ A.
 
 [JSBin](http://jsbin.com/yokaw/1/edit) | [JSBin explained](http://jsbin.com/biruk/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -639,6 +721,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/mohuf/1/edit) | [JSBin explained](http://jsbin.com/pileko/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -656,6 +740,8 @@ true
 
 [JSBin](http://jsbin.com/warowo/1/edit) | [JSBin explained](http://jsbin.com/sudut/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -671,6 +757,8 @@ true
 ```
 
 [JSBin](http://jsbin.com/xozim/1/edit) | [JSBin explained](http://jsbin.com/vohoco/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -688,6 +776,8 @@ true
 
 [JSBin](http://jsbin.com/dijiqo/1/edit) | [JSBin explained](http://jsbin.com/wefaw/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -703,6 +793,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/nedupi/1/edit) | [JSBin explained](http://jsbin.com/fuwuz/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -720,6 +812,8 @@ A.
 
 [JSBin](http://jsbin.com/vewuge/1/edit) | [JSBin explained](http://jsbin.com/lupaxi/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -736,6 +830,8 @@ A.
 
 [JSBin](http://jsbin.com/wuxobi/1/edit) | [JSBin explained](http://jsbin.com/letef/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -751,6 +847,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/sugewu/1/edit) | [JSBin explained](http://jsbin.com/disuzo/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -770,6 +868,8 @@ true
 
 [JSBin](http://jsbin.com/yociz/1/edit) | [JSBin explained](http://jsbin.com/jefera/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -785,6 +885,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/tujig/1/edit) | [JSBin explained](http://jsbin.com/redup/2/edit)
+
+---
 
 Q. What's the result? (assuming window scope)
 
@@ -805,6 +907,10 @@ false
 
 [JSBin](http://jsbin.com/cowoji/1/edit) | [JSBin explained](http://jsbin.com/ceriwu/1/edit)
 
+---
+
+Q. What's the result?
+
 ```javascript
 (function(x) {
   var isMatch,
@@ -822,6 +928,8 @@ false
 
 [JSBin](http://jsbin.com/kulavu/2/edit) | [JSBin explained](http://jsbin.com/hamog/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -837,6 +945,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/puyap/1/edit) | [JSBin explained](http://jsbin.com/mavicu/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -854,6 +964,8 @@ A.
 
 [JSBin](http://jsbin.com/huboca/1/edit) | [JSBin explained](http://jsbin.com/xudanu/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -869,6 +981,8 @@ undefined
 ```
 
 [JSBin](http://jsbin.com/vetiba/1/edit) | [JSBin explained](http://jsbin.com/dipedereti/edit)
+
+---
 
 Q. What's the result?
 
@@ -886,6 +1000,8 @@ A.
 
 [JSBin](http://jsbin.com/dulih/1/edit) | [JSBin explained](http://jsbin.com/veruri/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -901,6 +1017,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/lekun/1/edit) | [JSBin explained](http://jsbin.com/xukis/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -918,6 +1036,8 @@ A.
 
 [JSBin](http://jsbin.com/femicu/1/edit) | [JSBin explained](http://jsbin.com/cotaf/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -933,6 +1053,8 @@ Infinity
 ```
 
 [JSBin](http://jsbin.com/fepidu/1/edit) | [JSBin explained](http://jsbin.com/hofutu/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -950,6 +1072,8 @@ A.
 
 [JSBin](http://jsbin.com/xocol/1/edit) | [JSBin explained](http://jsbin.com/kuhec/1/edit)
 
+---
+
 Q. What's the result?
 
 ```
@@ -965,6 +1089,8 @@ true
 ```
 
 [JSBin](http://jsbin.com/mexanu/1/edit) | [JSBin explained](http://jsbin.com/tizagi/3/edit)
+
+---
 
 Q. What's the result?
 
@@ -984,6 +1110,8 @@ true
 
 [JSBin](http://jsbin.com/cuyer/1/edit) | [JSBin explained](http://jsbin.com/suzev/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1000,6 +1128,8 @@ A.
 
 [JSBin](http://jsbin.com/mobaqepetu/1/edit) | [JSBin explained](http://jsbin.com/xiwakihaxa/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1015,6 +1145,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/wenifelaco/1/edit) | [JSBin explained](http://jsbin.com/bivuzupaje/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -1034,6 +1166,8 @@ A.
 
 [JSBin](http://jsbin.com/jogeroluru/1/edit) | [JSBin explained](http://jsbin.com/wajumigoru/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1050,6 +1184,8 @@ true
 
 [JSBin](http://jsbin.com/xafixizapo/1/edit) | [JSBin explained](http://jsbin.com/zigozeheti/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1065,6 +1201,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/detarakare/1/edit) | [JSBin explained](http://jsbin.com/bisinayicu/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -1086,6 +1224,8 @@ false
 
 [JSBin](http://jsbin.com/rudokoqiza/1/edit) | [JSBin explained](http://jsbin.com/qubokakuga/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1101,6 +1241,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/nafuhuyeka/1/edit?html,js,console) | [JSBin explained](http://jsbin.com/pamafoxuto/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -1119,6 +1261,8 @@ A.
 ```
 
 [JSBin](http://jsbin.com/taqewiside/1/edit) | [JSBin explained](http://jsbin.com/sokatasosu/1/edit)
+
+---
 
 Q. What's the result?
 
@@ -1148,6 +1292,8 @@ A.
 [JSBin](http://jsbin.com/zawezozepe/1/edit) | [JSBin explained](http://jsbin.com/leyaqamuru/1/edit?html,js,consol:w
 jke)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1165,6 +1311,8 @@ false
 ```
 
 [JSBin](http://jsbin.com/fokomolova/1/edit) | [JSBin explained](http://jsbin.com/coxakaxiwu/1/edit?html,js,console)
+
+---
 
 Q. What's the result?
 
@@ -1185,6 +1333,8 @@ A.
 
 [JSBin](http://jsbin.com/bequxifegi/1/edit) | [JSBin explained](http://jsbin.com/zenipunohi/1/edit)
 
+---
+
 Q. What's the result?
 
 ```javascript
@@ -1201,6 +1351,7 @@ A.
 
 [JSBin](http://jsbin.com/cabalutozu/1/edit) | [JSBin explained](http://jsbin.com/yewopuxohi/1/edit)
 
+---
 
 Q. What's the result?
 
@@ -1218,6 +1369,7 @@ A.
 
 [JSBin](https://jsbin.com/laqebotenu/edit?js,console) | [JSBin explained](https://jsbin.com/tukutofimi/edit?js,console)
 
+---
 
 Q. What's the result?
 
