@@ -1289,8 +1289,7 @@ A.
 "unknown"
 ```
 
-[JSBin](http://jsbin.com/zawezozepe/1/edit) | [JSBin explained](http://jsbin.com/leyaqamuru/1/edit?html,js,consol:w
-jke)
+[JSBin](http://jsbin.com/zawezozepe/1/edit) | [JSBin explained](http://jsbin.com/leyaqamuru/1/edit)
 
 ---
 
