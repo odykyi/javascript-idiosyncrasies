@@ -464,7 +464,7 @@ false
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return [1+1] === [2];
 })()
@@ -472,7 +472,7 @@ Q. What's the result?
 
 A.
 
-```
+```javascript
 false
 ```
 
@@ -780,7 +780,7 @@ true
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return (0.1 + 0.2 === 0.3);
 })();
@@ -798,7 +798,7 @@ false
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return (0.1).toFixed(20);
 })();
@@ -816,7 +816,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return parseFloat('3.3.4');
 })();
@@ -834,7 +834,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return 010;
 })();
@@ -852,7 +852,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return (parseInt('10000000000000000', 10) ===
             parseInt('10000000000000001', 10)
@@ -932,7 +932,7 @@ false
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return ![];
 })();
@@ -950,7 +950,7 @@ false
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return +[];
 })();
@@ -968,7 +968,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return [][[]];
 })();
@@ -986,7 +986,7 @@ undefined
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return +!+[];
 })();
@@ -1004,7 +1004,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return []+[];
 })();
@@ -1022,7 +1022,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return true + 1;
 })();
@@ -1040,7 +1040,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return 1 / '';
 })();
@@ -1058,7 +1058,7 @@ Infinity
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return 1 * null;
 })();
@@ -1076,7 +1076,7 @@ A.
 
 Q. What's the result?
 
-```
+```javascript
 (function() {
     return new Array() == false;
 })();
