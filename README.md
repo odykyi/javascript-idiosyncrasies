@@ -12,6 +12,24 @@ Disclaimer: Some of these snippets are simply to demonstrate the *quirky* parts 
 Q. What's the result?
 
 ```javascript
+(() => {
+  const func = async () => {}
+  const type = func.constructor.name;
+  return type;
+})()
+```
+
+A.
+
+```javascript
+"AsyncFunction"
+```
+
+---
+
+Q. What's the result?
+
+```javascript
 (function() {
   return `text 'inner'` == `text "inner"`;
 })();
