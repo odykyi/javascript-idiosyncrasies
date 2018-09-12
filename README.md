@@ -12,7 +12,7 @@ Disclaimer: Some of these snippets are simply to demonstrate the *quirky* parts 
 Q. What's the result?
 
 ```javascript
-(() => {
+(function() => {
   const func = async () => {}
   const type = func.constructor.name;
   return type;
