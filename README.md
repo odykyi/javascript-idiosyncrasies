@@ -9,8 +9,10 @@ before answers to the question please read more than 20 books about `js` technol
 
 please copy this project and share with friends :)
 
-    - https://odykyi.github.io/javascript-idiosyncrasies/
-    - https://github.com/odykyi/javascript-idiosyncrasies
+¯\_(ツ)_/¯ 
+
+  https://odykyi.github.io/javascript-idiosyncrasies/
+  https://github.com/odykyi/javascript-idiosyncrasies
 
 This is a collection of things in JavaScript that may not be well recognized, especially to beginners.
 
