@@ -1,6 +1,16 @@
-# JavaScript idiosyncrasies
+# Ola amigos!
+## JavaScript idiosyncrasies
 
-https://odykyi.github.io/javascript-idiosyncrasies/
+![](http://i0.kym-cdn.com/photos/images/newsfeed/000/201/508/221435NothingtodoHereGifMadethiscuzIwas2479d82822723.gif?1321553488)
+
+Do you know _js_ ?
+
+before answers to the question please read more than 20 books about `js` technology and only then answer
+
+please copy this project and share with friends :)
+
+    - https://odykyi.github.io/javascript-idiosyncrasies/
+    - https://github.com/odykyi/javascript-idiosyncrasies
 
 This is a collection of things in JavaScript that may not be well recognized, especially to beginners.
 
