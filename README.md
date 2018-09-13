@@ -9,7 +9,8 @@ before answers to the question please read more than 20 books about `js` technol
 
 please copy this project and share with friends :)
 
-¯\_(ツ)_/¯ 
+    ¯\_(ツ)_/¯ 
+
 
   https://odykyi.github.io/javascript-idiosyncrasies/
   
