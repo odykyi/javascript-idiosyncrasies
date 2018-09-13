@@ -12,6 +12,7 @@ please copy this project and share with friends :)
 ¯\_(ツ)_/¯ 
 
   https://odykyi.github.io/javascript-idiosyncrasies/
+  
   https://github.com/odykyi/javascript-idiosyncrasies
 
 This is a collection of things in JavaScript that may not be well recognized, especially to beginners.
